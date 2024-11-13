@@ -63,6 +63,33 @@
       margin-bottom: 15px;
     }
 
+    .supervision-team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .team-member {
+      flex: 1;
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 30%;
+    }
+
+    .team-member h4 {
+      color: #003f6b;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .team-member p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+
     .footer {
       background-color: #003f6b;
       color: #fff;
@@ -84,7 +111,7 @@
 <body>
 
 <header>
-  <h1>Ombre Interne</h1>
+  <h1>Ombre Interne - Progetto Animato</h1>
   <p>Un viaggio nelle tenebre e nella luce dell'animo umano</p>
 </header>
 
@@ -94,7 +121,7 @@
     <h2>Sinossi</h2>
     <div class="content-box">
       <p>In un mondo diviso tra luce e oscurità, una giovane protagonista si trova davanti alla sfida più grande della sua vita: comprendere il vero significato della speranza, della paura e del sacrificio. Mentre l'oscurità cresce e minaccia di sopraffare il suo cuore, un incontro misterioso con una forza sconosciuta la spinge a intraprendere un viaggio pericoloso. Lungo il cammino, dovrà affrontare paure che credeva di aver già superato e fare scelte che metteranno alla prova la sua umanità.</p>
-    <p>“Ombre Interne” è una storia carica di tensione, dove ogni passo della protagonista è un'ulteriore discesa nelle profondità dell'animo umano. L'oscurità, sempre più opprimente, spinge la protagonista a confrontarsi con i suoi demoni interiori, costringendola a prendere decisioni impossibili. Un cammino senza ritorno, che cambierà il destino non solo della protagonista, ma di tutti coloro che si troveranno a fare i conti con le ombre più oscure della loro esistenza. La luce è lontana, e il sacrificio potrebbe essere l'unica via di salvezza.</p>
+      <p>“Ombre Interne” è una storia carica di tensione, dove ogni passo della protagonista è un'ulteriore discesa nelle profondità dell'animo umano. L'oscurità, sempre più opprimente, spinge la protagonista a confrontarsi con i suoi demoni interiori, costringendola a prendere decisioni impossibili. Un cammino senza ritorno, che cambierà il destino non solo della protagonista, ma di tutti coloro che si troveranno a fare i conti con le ombre più oscure della loro esistenza. La luce è lontana, e il sacrificio potrebbe essere l'unica via di salvezza.</p>
     </div>
   </section>
 
@@ -102,6 +129,8 @@
   <section>
     <h2>Fasi di Produzione</h2>
     <div class="content-box">
+      <p>La produzione di “Ombre Interne” seguirà un processo articolato e meticoloso, che attraversa le tradizionali fasi di sviluppo di un cartone animato di alta qualità. Ogni fase è fondamentale per creare un prodotto finale che non solo racconti una storia coinvolgente, ma che raggiunga anche i più alti standard visivi e narrativi.</p>
+
       <ul class="timeline">
         <li><strong>Pre-Produzione (3 mesi):</strong> Questa fase include la definizione della trama, il design dei personaggi e degli ambienti, e la creazione dei primi storyboard e animatic. Vengono inoltre finalizzati i concept artistici e la pianificazione del flusso narrativo.</li>
 
@@ -114,7 +143,35 @@
     </div>
   </section>
 
-  <!-- Sezione 3: Dettagli del Progetto -->
+  <!-- Sezione 3: Supervisione Creativa -->
+  <section>
+    <h2>Supervisione Creativa</h2>
+    <div class="content-box">
+      <p>La supervisione creativa di “Ombre Interne” è affidata completamente a Esmeralda D'Ambrogio, che si occupa di ogni aspetto della produzione, dalla scrittura della sceneggiatura alla supervisione dell'animazione, garantendo la coerenza artistica e narrativa del progetto.</p>
+
+      <div class="supervision-team">
+        <div class="team-member">
+          <h4>Direttore Creativo</h4>
+          <p><strong>Esmeralda D'Ambrogio</strong></p>
+          <p>Esmeralda D'Ambrogio si occupa della supervisione creativa generale, prendendo le decisioni chiave per mantenere il progetto fedele alla sua visione artistica e narrativa, coordinando tutte le fasi di sviluppo.</p>
+        </div>
+
+        <div class="team-member">
+          <h4>Direttore Artistico</h4>
+          <p><strong>Esmeralda D'Ambrogio</strong></p>
+          <p>Esmeralda D'Ambrogio garantirà che tutti gli elementi visivi del progetto, dai personaggi agli ambienti, siano coerenti e di altissima qualità. Sarà responsabile della direzione visiva del progetto durante tutta la produzione.</p>
+        </div>
+
+        <div class="team-member">
+          <h4>Supervisore dell'Animazione</h4>
+          <p><strong>Esmeralda D'Ambrogio</strong></p>
+          <p>Supervisionerà il processo di animazione per assicurarsi che ogni movimento e comportamento dei personaggi sia naturale e emotivamente coinvolgente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione 4: Dettagli del Progetto -->
   <section>
     <h2>Dettagli del Progetto</h2>
     <div class="content-box">
@@ -123,14 +180,14 @@
     </div>
   </section>
 
-  <!-- Sezione 4: Contatti -->
+  <!-- Sezione 5: Contatti -->
   <section>
     <h2>Contatti</h2>
     <div class="content-box">
       <p>Per domande o ulteriori informazioni, non esitate a contattarmi via email:</p>
       <p><strong>Email:</strong> <a href="mailto:ombreinterne.contatto@gmail.com">ombreinterne.contatto@gmail.com</a></p>
-      <p><strong>Canale YouTube:</strong> <a href="https://www.youtube.com/@lolly_esme" target="_blank">https://www.youtube.com/@lolly_esme</a></p>
-      <p><strong>Canale Twitch:</strong> <a href="https://www.twitch.tv/ilnome_generato" target="_blank">https://www.twitch.tv/ilnome_generato</a></p>
+      <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@lolly_esme" target="_blank">lolly_esme YouTube</a></p>
+      <p><strong>Twitch:</strong> <a href="https://www.twitch.tv/ilnome_generato" target="_blank">ilnome_generato Twitch</a></p>
     </div>
   </section>
 </main>
