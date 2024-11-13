@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ombre Interne - Progetto Animato</title>
+  <title>Ombre Interne - Cartone Animato 3D</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -106,13 +106,70 @@
       color: #ffdd57;
       text-decoration: none;
     }
+
+    /* Nuova sezione "Prossimamente" */
+    .coming-soon {
+      background-color: #ff9a8b; /* Cambiato colore di sfondo */
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
+    }
+
+    .coming-soon h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .coming-soon p {
+      font-size: 1.3rem;
+      margin-top: 15px;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    /* Design per la distribuzione su YouTube e Twitch */
+    .distribution {
+      background-color: #ffdd57;
+      color: #003f6b;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .distribution h3 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .distribution p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .distribution a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #003f6b;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .distribution a:hover {
+      background-color: #003f6b;
+      color: #ffdd57;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Ombre Interne - Progetto Animato</h1>
-  <p>Un viaggio nelle tenebre e nella luce dell'animo umano</p>
+  <h1>Ombre Interne - Cartone Animato 3D</h1>
 </header>
 
 <main>
@@ -120,8 +177,8 @@
   <section>
     <h2>Sinossi</h2>
     <div class="content-box">
-      <p>In un mondo diviso tra luce e oscurità, una giovane protagonista si trova davanti alla sfida più grande della sua vita: comprendere il vero significato della speranza, della paura e del sacrificio. Mentre l'oscurità cresce e minaccia di sopraffare il suo cuore, un incontro misterioso con una forza sconosciuta la spinge a intraprendere un viaggio pericoloso. Lungo il cammino, dovrà affrontare paure che credeva di aver già superato e fare scelte che metteranno alla prova la sua umanità.</p>
-      <p>“Ombre Interne” è una storia carica di tensione, dove ogni passo della protagonista è un'ulteriore discesa nelle profondità dell'animo umano. L'oscurità, sempre più opprimente, spinge la protagonista a confrontarsi con i suoi demoni interiori, costringendola a prendere decisioni impossibili. Un cammino senza ritorno, che cambierà il destino non solo della protagonista, ma di tutti coloro che si troveranno a fare i conti con le ombre più oscure della loro esistenza. La luce è lontana, e il sacrificio potrebbe essere l'unica via di salvezza.</p>
+      <p>In un mondo lacerato tra luce e oscurità, la giovane protagonista si trova ad affrontare la solitudine e le scelte cruciali che definiscono il suo destino. Mentre il buio intorno a lei cresce, minacciando di inghiottirla, un incontro misterioso la costringerà a confrontarsi con le sue paure più intime. Ogni passo la spingerà più lontano dalla sicurezza di ciò che conosce, portandola a scoprire che la vera forza non risiede nei combattimenti esterni, ma nelle scelte interiori che definiscono chi siamo.</p>
+      <p>“Ombre Interne” racconta la lotta interiore di una giovane ragazza che, in un viaggio solitario, dovrà affrontare il peso delle sue decisioni e delle sue paure. La sua strada, incerta e tortuosa, la porterà a mettere in discussione la sua stessa esistenza, mentre le ombre, sempre più opprimenti, minacciano di sopraffarla. In un mondo in cui la luce sembra lontana, ogni scelta potrebbe essere l'ultima, ma la protagonista non ha altra strada che andare avanti.</p>
     </div>
   </section>
 
@@ -129,15 +186,10 @@
   <section>
     <h2>Fasi di Produzione</h2>
     <div class="content-box">
-      <p>La produzione di “Ombre Interne” seguirà un processo articolato e meticoloso, che attraversa le tradizionali fasi di sviluppo di un cartone animato di alta qualità. Ogni fase è fondamentale per creare un prodotto finale che non solo racconti una storia coinvolgente, ma che raggiunga anche i più alti standard visivi e narrativi.</p>
-
       <ul class="timeline">
         <li><strong>Pre-Produzione (3 mesi):</strong> Questa fase include la definizione della trama, il design dei personaggi e degli ambienti, e la creazione dei primi storyboard e animatic. Vengono inoltre finalizzati i concept artistici e la pianificazione del flusso narrativo.</li>
-
         <li><strong>Produzione (24 mesi):</strong> Durante questa fase, i modelli 3D vengono creati, le animazioni vengono sviluppate, e i dettagli finali delle scene vengono elaborati. Gli effetti speciali e l'illuminazione sono perfezionati, dando vita ai personaggi e agli ambienti attraverso animazioni fluide e coinvolgenti.</li>
-
         <li><strong>Post-Produzione (5 mesi):</strong> In questa fase finale, il film prende forma. Viene eseguito il rendering finale delle scene, si applicano gli effetti visivi, e si svolge il montaggio video. La colonna sonora e il sound design completano l'esperienza immersiva, mentre la correzione colore ottimizza l'aspetto visivo finale.</li>
-
         <li><strong>Distribuzione (2 mesi):</strong> L'ultima fase si concentra sulla distribuzione ufficiale del cartone animato, che include la promozione sui social media, il lancio ufficiale su piattaforme digitali e la preparazione per la distribuzione su larga scala, sia nelle sale cinematografiche che su piattaforme streaming.</li>
       </ul>
     </div>
@@ -180,14 +232,25 @@
     </div>
   </section>
 
-  <!-- Sezione 5: Contatti -->
+  <!-- Sezione 5: Prossimamente -->
+  <section class="coming-soon">
+    <h2>Prossimamente</h2>
+    <p>Rimanete sintonizzati per il lancio del progetto! Un viaggio nelle ombre sta per iniziare, non perdetelo.</p>
+  </section>
+
+  <!-- Sezione 6: Distribuzione -->
+  <section class="distribution">
+    <h3>Distribuzione su YouTube e Twitch</h3>
+    <p>Seguite il progetto "Ombre Interne" su YouTube e Twitch per aggiornamenti esclusivi, live streaming, e dietro le quinte del processo creativo!</p>
+    <p><a href="https://www.youtube.com/@lolly_esme" target="_blank">YouTube</a> | <a href="https://www.twitch.tv/ilnome_generato" target="_blank">Twitch</a></p>
+  </section>
+
+  <!-- Sezione 7: Contatti -->
   <section>
     <h2>Contatti</h2>
     <div class="content-box">
       <p>Per domande o ulteriori informazioni, non esitate a contattarmi via email:</p>
       <p><strong>Email:</strong> <a href="mailto:ombreinterne.contatto@gmail.com">ombreinterne.contatto@gmail.com</a></p>
-      <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@lolly_esme" target="_blank">lolly_esme YouTube</a></p>
-      <p><strong>Twitch:</strong> <a href="https://www.twitch.tv/ilnome_generato" target="_blank">ilnome_generato Twitch</a></p>
     </div>
   </section>
 </main>
